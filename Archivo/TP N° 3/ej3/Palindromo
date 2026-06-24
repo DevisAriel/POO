@@ -1,0 +1,16 @@
+package ej3;
+
+
+public class Palindromo {
+    private String palabra;
+
+    public Palabra(String palabra){
+        this.palabra = palabra;
+    }
+    public static esPalindromo(String palabra){
+        StringBuilder constructor = new StringBuilder(palabra);
+        String palabraInvertida = constructor.reverse();
+        return palabra.equals(palabraInvertida);
+    }
+       
+}
